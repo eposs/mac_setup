@@ -6,7 +6,7 @@ brew install git
 # Python
 
 brew install python
-/usr/local/bin/pip install pillow numpy matplotlib scipy ipython[notebook] jupiter mygene requests sympy pandas biopython nose virtualenv virtualenvwrapper argparse phil scikit-learn 
+/usr/local/bin/pip install pillow docopt numpy matplotlib scipy ipython[notebook] jupiter mygene requests sympy pandas biopython nose virtualenv virtualenvwrapper argparse phil scikit-learn 
 
 ## R - this is already tapped in homebrew/science
 brew install r
