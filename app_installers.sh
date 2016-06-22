@@ -33,6 +33,12 @@ brew install python3
 ## pypy
 brew install pypy
 
+# MUSCLE alignment
+brew install muscle
+
+#NCBI BLAST
+brew install blast
+
 ############# CASK APPS
 
 # Alfred
