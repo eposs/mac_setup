@@ -6,7 +6,7 @@ brew install git
 # Python
 
 brew install python
-/usr/local/bin/pip install pillow numpy matplotlib scipy ipython[notebook] jupiter sympy pandas biopython nose virtualenv virtualenvwrapper argparse phil scikit-learn 
+/usr/local/bin/pip install pillow numpy matplotlib scipy ipython[notebook] jupiter mygene requests sympy pandas biopython nose virtualenv virtualenvwrapper argparse phil scikit-learn 
 
 ## R - this is already tapped in homebrew/science
 brew install r
@@ -31,8 +31,7 @@ npm install -g coffee-script
 brew install python3
 
 ## pypy
-# brew install pypy
-
+brew install pypy
 
 ############# CASK APPS
 
@@ -55,14 +54,8 @@ brew cask install google-drive
 # Chrome
 brew cask install google-chrome
 
-# Daisy Disk
-# brew cask install daisydisk
-
-# Divvy
-# brew cask install divvy
-
 # Dropbox
-# brew cask install dropbox
+brew cask install dropbox
 
 # Evernote
 brew cask install evernote
@@ -72,9 +65,6 @@ brew cask install evernote
 
 # iTerm2
 brew cask install iterm2
-
-# Julia
-brew cask install julia
 
 # Macdown
 brew cask install macdown
@@ -97,14 +87,25 @@ brew cask install visual-studio-code
 # PyCharm
 brew cask install pycharm
 
-# TextExpander
-# brew cask install textexpander
-
 # VLC
 brew cask install vlc
 
 # XQuartz
 brew cask install xquartz
+
+# Java
+brew cask install java
+
+# Skype
+brew cask install skype
+
+# Slack
+brew cask install slack
+
+# Android file transfer
+brew cask install android-file-transfer
+
+
 
 
 
