@@ -36,6 +36,9 @@ brew install pypy
 # MUSCLE alignment
 brew install muscle
 
+# Clustal Omega alignment
+brew install clustal-omega
+
 #NCBI BLAST
 brew install blast
 
