@@ -4,9 +4,8 @@
 brew install git
 
 # Python
-
 brew install python
-/usr/local/bin/pip install pillow docopt numpy matplotlib scipy ipython[notebook] jupiter mygene requests sympy pandas biopython nose virtualenv virtualenvwrapper argparse phil scikit-learn 
+/usr/local/bin/pip install argparse biopython docopt ipython[notebook] jupyter lmfit lxml matplotlib mygene nose numpy pandas phil pillow pyfasta requests scikit-learn scipy seaborn setuptools sympy virtualenv virtualenvwrapper 
 
 ## R - this is already tapped in homebrew/science
 brew install r
@@ -21,7 +20,7 @@ brew install ffmpeg
 brew install tmux
 
 ## gnuplot
-# brew install gnuplot --cairo
+brew install gnuplot --cairo
 
 ## Javascript things
 brew install node
@@ -33,14 +32,16 @@ brew install python3
 ## pypy
 brew install pypy
 
-# MUSCLE alignment
-brew install muscle
-
-# Clustal Omega alignment
-brew install clustal-omega
-
-#NCBI BLAST
+brew install pyqt
+brew install pyqt@4
+brew install argtable
 brew install blast
+brew install clustal-omega
+brew install htop
+brew install pymol
+brew install sqlite 
+brew install tcl-tk
+
 
 ############# CASK APPS
 
@@ -52,7 +53,10 @@ open -a Alfred\ 2
 brew cask alfred link
 
 # AppZapper
-brew cask install appzapper
+#brew cask install appzapper
+
+# Atom.io
+brew cask install atom
 
 # Archiver
 brew cask install archiver
@@ -63,17 +67,29 @@ brew cask install google-drive
 # Chrome
 brew cask install google-chrome
 
+# Daisy Disk
+# brew cask install daisydisk
+
+# Divvy
+# brew cask install divvy
+
 # Dropbox
 brew cask install dropbox
 
 # Evernote
-brew cask install evernote
+#brew cask install evernote
+
+# Firefox
+brew cask install firefox
 
 # iStat-Menus
 # brew cask install istat-menus
 
 # iTerm2
 brew cask install iterm2
+
+# Julia
+brew cask install julia
 
 # Macdown
 brew cask install macdown
@@ -87,32 +103,26 @@ brew cask install macdown
 # Sublime Text 3 - note: requires the caskroom/versions tap
 brew cask install sublime-text3
 
-# Atom.io
-brew cask install atom
+# Spotify!!
+brew cask install spotify
 
 # Visual Studio Code
 brew cask install visual-studio-code
 
 # PyCharm
-brew cask install pycharm
+#brew cask install pycharm
+
+#Slack
+brew cask install slack
+
+# TextExpander
+# brew cask install textexpander
 
 # VLC
 brew cask install vlc
 
 # XQuartz
 brew cask install xquartz
-
-# Java
-brew cask install java
-
-# Skype
-brew cask install skype
-
-# Slack
-brew cask install slack
-
-# Android file transfer
-brew cask install android-file-transfer
 
 
 
